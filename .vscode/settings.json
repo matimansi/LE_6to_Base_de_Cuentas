@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "recover_accounts.h": "c",
+        "definiciones.h": "c",
+        "create_account_from_file.h": "c",
+        "create_account.h": "c",
+        "delete_account.h": "c",
+        "print_accounts.h": "c",
+        "update_database.h": "c",
+        "free_up_memory.h": "c"
+    }
+}
