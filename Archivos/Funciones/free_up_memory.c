@@ -4,16 +4,16 @@
 
 void free_up_memory (pointer_to_account *beginning)
 {
-	pointer_to_account actual;
+	pointer_to_account current;
 	printf("Releasing memory...\n");
 	while (*beginning != NULL)
 	{
-		actual = *beginning;
+		current = *beginning;
 		*beginning = (*beginning)->next;
-		free(actual->email);
-		free(actual->password);
-		free(actual->nickname);
-		free(actual);
+		free(current->email);
+		free(current->password);
+		free(current->nickname);
+		free(current);
 	}
 	printf("Memory released");
 }
